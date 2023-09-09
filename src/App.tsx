@@ -1,4 +1,5 @@
 import { useState } from "react";
+import About from "./about/about";
 
 type Iprops = {
   firstname: string;
@@ -70,6 +71,7 @@ function App() {
         <div style={{ width: "500px", height: "400px", color: "red" }}>
           Hello world this is susheel kumar
         </div>
+        <About />
       </>
     </>
   );
